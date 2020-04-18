@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Navbar from '../Navbar/Navbar'
 import { makeStyles } from '@material-ui/core/styles'
 import Container from '@material-ui/core/Container'
@@ -7,6 +7,7 @@ import Grid from '@material-ui/core/Grid'
 import Button from '@material-ui/core/Button'
 import "./HomePage.css"
 import Animations from "./animations"
+import Login from "../LoginRegister/Login/Login"
 // import Drawer from "../Drawer/Drawer"
 const useStyles = makeStyles(theme => ({
   root: {
@@ -88,9 +89,13 @@ const useStyles = makeStyles(theme => ({
 
 const HomePage = () => {
   const classes = useStyles()
+
+const [clickLogin, setClickLogin] = useState(false)
+const [clickRegister, setClickRegister] = useState(false)
+
   return (
     <React.Fragment>
-      <Navbar />
+      {clickLogin === true || clickRegister === true ? <Login changeRegister={clickRegister} /> : <> <Navbar clickRegister={() => setClickRegister(true)}  clickLogin={() => setClickLogin(true)} login="Login" register="Register" />
       <Container maxWidth='xl'>
         <div className={classes.root}>
           <Grid container spacing={3}>
@@ -130,7 +135,8 @@ const HomePage = () => {
           </Grid>
         </div>
        
-      </Container>
+      </Container> </> }
+     
 
     </React.Fragment>
   )

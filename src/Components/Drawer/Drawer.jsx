@@ -23,7 +23,7 @@ const useStyles = makeStyles(theme => ({
   },
   [theme.breakpoints.down('xs')]: {
     icon: {
-      display: 'block'
+      display: 'block',
     }
   }
 }))
@@ -77,6 +77,7 @@ export default function DrawerNavbar () {
       {['right'].map(anchor => (
         <React.Fragment key={anchor}>
           <DehazeIcon
+            color="secondary"
             className={classes.icon}
             onClick={toggleDrawer(anchor, true)}
           />
