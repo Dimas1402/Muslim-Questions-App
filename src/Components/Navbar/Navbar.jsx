@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import IconButton from '@material-ui/core/IconButton';
 import Drawer from "../Drawer/Drawer"
-
+import {Link} from "react-router-dom"
 // import DehazeIcon from '@material-ui/icons/Dehaze';
 // import styled from "styled-components"
 
@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     background:"white",
   },
   btnLoginRegis:{
-    color:"#6C63FF"
+    color:"#6C63FF",
   },
  [theme.breakpoints.down("xs")]:{
    menuButton:{
@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
 //   display:none;
 // `;
 
-export default function Navbar({login, register, clickLogin, clickImage, clickRegister}) {
+export default function Navbar({login, register,logout}) {
   const classes = useStyles();
   const[nvbar, setNvbar] = useState(false)
 
@@ -77,12 +77,18 @@ const listenScrollEvent = () => {
         <Toolbar>
           
           <Typography variant="h6" className={classes.title}>
-          <img style={{cursor:"pointer"}} onClick={clickImage} style={{width:'90px', height:"90px"}} src={require("../../Assets/logo.png")} alt=""/>
+            <Link to="/">
+          <img  style={{width:'90px', height:"90px",cursor:"pointer"}} src={require("../../Assets/logo.png")} alt=""/>
+          </Link>
           </Typography>
-            <Button className={classes.btnLoginRegis} onClick={clickLogin} color="inherit">{login}</Button>
-            <Button className={classes.btnLoginRegis} onClick={clickRegister} color="inherit">{register}</Button>
+          <Link to ="/login">
+            <Button className={classes.btnLoginRegis} color="inherit"> {login} </Button>
+            </Link>
+            <Link to ="/register">
+            <Button className={classes.btnLoginRegis} onAbortCapture color="inherit">{register}</Button>
+            </Link>
+            <Button className={classes.btnLoginRegis} onAbortCapture color="inherit">{logout}</Button>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            {/* <DehazeIcon  className={classes.icon} /> */}
             <Drawer/>
           </IconButton>
         </Toolbar>

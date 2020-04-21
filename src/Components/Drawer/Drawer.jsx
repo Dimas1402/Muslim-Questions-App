@@ -10,6 +10,7 @@ import ListItemText from '@material-ui/core/ListItemText'
 import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline'
 import PeopleIcon from '@material-ui/icons/People'
 import DehazeIcon from '@material-ui/icons/Dehaze'
+import {Link} from "react-router-dom"
 
 const useStyles = makeStyles(theme => ({
   list: {
@@ -28,7 +29,7 @@ const useStyles = makeStyles(theme => ({
   }
 }))
 
-export default function DrawerNavbar () {
+export default function DrawerNavbar ({drawerClickLogin, drawerClickRegister}) {
   const classes = useStyles()
   const [state, setState] = React.useState({
     right: false
@@ -60,12 +61,14 @@ export default function DrawerNavbar () {
           alt=''
         />
         {['Login', 'Register'].map((text, index) => (
-          <ListItem button key={text}>
+          <Link to={index === 0 ? "/login" : "/register"}>
+          <ListItem onClick={index === 0 ? drawerClickLogin :  drawerClickRegister}  button key={text}>
             <ListItemIcon>
-              {index === 1 ? <PeopleIcon /> : <PeopleOutlineIcon />}
+              {index === 1 ? <PeopleIcon  color="primary" /> : <PeopleOutlineIcon  color="primary" />}
             </ListItemIcon>
             <ListItemText primary={text} />
           </ListItem>
+          </Link>
         ))}
       </List>
       <Divider />
@@ -77,7 +80,7 @@ export default function DrawerNavbar () {
       {['right'].map(anchor => (
         <React.Fragment key={anchor}>
           <DehazeIcon
-            color="secondary"
+            color="primary"
             className={classes.icon}
             onClick={toggleDrawer(anchor, true)}
           />

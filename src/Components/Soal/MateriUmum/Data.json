@@ -1,0 +1,244 @@
+{
+    "Soal0":
+    [
+        {
+            "id":0,
+            "soal":"Perang yang disebabkan oleh dendam lama orang - orang yahudi yang di usir oleh Rasulullah dari Madinah adalah perang ...",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Perang Khandaq"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Perang Badr "
+                },
+                {
+                    "value":"2",
+                    "jawab":"Perang Uhud"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Perang Bani Musthaliq "
+                }
+            ]
+        }
+    ],
+    "Soal1":[
+        {
+            "id":1,
+            "soal":"Apa yang dimaksud dengan Tauhid Rububiyah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Mengesakan Allah dalam beribadah kepada-Nya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mengesakan Allah dalam sifat-Nya yang mulia"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Mengesakan Allah dengan nama - nama Nya"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Mengesakan Allah dalam perbuatan-Nya"
+                }
+            ]
+        }
+    ],
+    "Soal2":[
+        {
+            "id":2,
+            "soal":"Hamzah bin Abdul Muthalib bin Hasyim mati syahid ketika perang ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Perang Badr"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Perang Uhud"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Perang Khandaq"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Perang Bani Musthaliq"
+                }
+            ]
+        }
+    ],
+    "Soal3":[
+        {
+            "id":1,
+            "soal":"Makna dari kalimat لا إله إلا الله adalah ...",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Tiada Tuhan selain Allah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Tidak ada penguasa abadi selain Allah."
+                },
+                {
+                    "value":"1",
+                    "jawab":"Tiada Tuhan yang berhak disembah selain Allah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Tidak ada yang berkuasa selain Allah"
+                }
+            ]
+        }
+    ],
+    "Soal4":[
+        {
+            "id":1,
+            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                }
+            ]
+        }
+    ],
+    "Soal5":[
+        {
+            "id":1,
+            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                }
+            ]
+        }
+    ],
+    "Soal6":[
+        {
+            "id":1,
+            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                }
+            ]
+        }
+    ],
+    "Soal7":[
+        {
+            "id":1,
+            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                }
+            ]
+        }
+    ],
+    "Soal8":[
+        {
+            "id":1,
+            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                }
+            ]
+        }
+    ],
+    "Soal9":[
+        {
+            "id":1,
+            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                }
+            ]
+        }
+    ]
+    
+}

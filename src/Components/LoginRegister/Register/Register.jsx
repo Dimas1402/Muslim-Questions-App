@@ -6,13 +6,13 @@ import Paper from '@material-ui/core/Paper'
 import Typography from '@material-ui/core/Typography'
 import Button from '@material-ui/core/Button'
 import Navbar from '../../Navbar/Navbar'
-import { Link, Redirect } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import { database } from '../../../Config/Firebase'
 import 'react-toastify/dist/ReactToastify.css'
 import { toast, ToastContainer } from 'react-toastify'
-import firebase from "../../../Config/Firebase"
+import firebase from '../../../Config/Firebase'
 import CircularProgress from '@material-ui/core/CircularProgress';
-
-
+import {Redirect} from "react-router-dom"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -75,11 +75,11 @@ const useStyles = makeStyles(theme => ({
     },
     textCopyRight: {
       display: 'none'
-    },
+    }
   }
 }))
 
-export default function Login () {
+export default function Register () {
   const classes = useStyles()
 
   // const [username, setUsername] = useState('')
@@ -87,46 +87,60 @@ export default function Login () {
   // const [password, setPassword] = useState(' ')
 
   const initState = {
+    username: '',
     email: '',
     password: ''
   }
 
-  const notify = () => {
-    toast.error('Gagal masuk, silakan periksa kembali email dan password anda!')
-  }
-
   const [state, setState] = useState(initState)
   const [loading, setLoading] = React.useState(false);
-  
+  const [err,setErr] = useState(false)
+
+  const notify = () => {
+    toast.info('Selamat, anda telah terdaftar')
+  }
+
   const handleSubmit = e => {
     e.preventDefault()
-      setLoading(true);
-    const dataUser = {
+    setLoading(true);
+    const datauser = {
       email : state.email,
       password : state.password
     }
-    const {email, password} = dataUser
-    firebase
-    .auth()
-    .signInWithEmailAndPassword(email, password)
-    .then(res => {
-      console.log("success", res.user.uid);
-      localStorage.setItem("uid",res.user.uid)
-      setState(initState)
+    database
+      .ref('/muslim-apps-f8400')
+      .push({
+        state
+      })
+      .then(res => {
+        console.log("succcess", res)
+        const {email, password} = datauser
+        localStorage.setItem('data', JSON.stringify(state))
+        firebase
+          .auth()
+          .createUserWithEmailAndPassword(email, password)
+          .then(res => {
+            console.log('success2', res)
+            notify()
+            setState(initState)
+            setLoading(false);
+          }).catch(err => {
+            setErr(true)
+            setLoading(false);
+          })
+      })
+      .catch(err => {
+        console.log(err)
         setLoading(false);
-    }).catch(err => {
-        setLoading(false);
-        notify()
-    })
+       
+      })
   }
-
 if(localStorage.getItem("uid")){
   return <Redirect to="listsoal" />
 }
   return (
-    
     <>
-    {localStorage.getItem("uid") ? <Redirect to="/listsoal"/> :<> <Navbar />
+      <Navbar />
       <div className={classes.root}>
         <ToastContainer />
         <Grid container>
@@ -143,13 +157,25 @@ if(localStorage.getItem("uid")){
                 <span style={{ fontWeight: 'bold', color: '#6C63FF' }}>
                   Selamat datang,
                 </span>
-                Silakan login terlebih dahulu untuk memulai ujian.
+                Silakan registrasi terlebih dahulu untuk mendaftarkan diri anda.
               </Typography>
               <form
                 onSubmit={handleSubmit}
                 className={classes.input}
                 autoComplete='off'
               >
+                <TextField
+                  style={{ width: '90%' }}
+                  id='outlined-basic'
+                  label='username'
+                  variant='outlined'
+                  type='text'
+                  value={state.username}
+                  onChange={e =>
+                    setState({ ...state, username: e.target.value })
+                  }
+                  required
+                />
                 <TextField
                   style={{ width: '90%' }}
                   id='outlined-basic'
@@ -172,19 +198,19 @@ if(localStorage.getItem("uid")){
                   }
                   required
                 />
+                {err === true ? <p style={{color:"red", fontSize:"10px"}} >password minimal 6 karakter</p> : null}
                 <Button variant='contained' color='primary' type='submit'>
-                  {loading === true ? <CircularProgress size={24} className={classes.buttonProgress} />: "Masuk"}
+                {loading === true ? <CircularProgress size={24} className={classes.buttonProgress} />: "Registrasi"}
                 </Button>
-                
               </form>
               <p
                 style={{ textAlign: 'right' }}
                 className={classes.textRegister}
               >
-               Belum punya akun ?
-                <Link to='/register'>
+                Sudah punya akun ?
+                <Link to='/login'>
                   <span style={{ color: '#6C63FF', cursor: 'pointer' }}>
-                    Daftar
+                    Login
                   </span>
                 </Link>
               </p>
@@ -201,8 +227,7 @@ if(localStorage.getItem("uid")){
             </p>
           </Grid>
         </Grid>
-      </div> </>  }
-     
+      </div>
     </>
   )
 }
