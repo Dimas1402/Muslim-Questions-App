@@ -53,7 +53,7 @@ export default function MateriUmum () {
   const [nilai, setNilai] = React.useState(0)
   const [time, setTime] = React.useState(null)
   const [count, setCount] = React.useState(0)
-  const [detik, setDetik] = React.useState(90)
+  const [detik, setDetik] = React.useState(120)
   const [disable, setDisable] = React.useState(false)
   const [loading1, setLoading1] = React.useState(false)
   const [success, setSuccess] = React.useState(false)
