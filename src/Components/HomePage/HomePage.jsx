@@ -140,7 +140,7 @@ if(localStorage.getItem("uid")){
                           yang kami berikan.{' '}
                         </p>
                       </div>
-                      <Link to="/login">
+                      <Link to="/register">
                       <Button
                         style={{ cursor: 'pointer', zIndex: '99' }}
                         className={classes.buttonStart}
