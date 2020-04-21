@@ -70,6 +70,10 @@ const listenScrollEvent = () => {
     setNvbar(false)
   }
 };
+const logouts = () => {
+  localStorage.removeItem("uid")
+  window.location.reload()
+}
   // console.log(createMuiTheme())
   return (
     <div className={classes.root}>
@@ -87,7 +91,7 @@ const listenScrollEvent = () => {
             <Link to ="/register">
             <Button className={classes.btnLoginRegis} onAbortCapture color="inherit">{register}</Button>
             </Link>
-            <Button className={classes.btnLoginRegis} onAbortCapture color="inherit">{logout}</Button>
+            <Button onClick={logouts} className={classes.btnLoginRegis} onAbortCapture color="inherit">{logout}</Button>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <Drawer/>
           </IconButton>

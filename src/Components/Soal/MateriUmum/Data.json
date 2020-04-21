@@ -74,7 +74,7 @@
     ],
     "Soal3":[
         {
-            "id":1,
+            "id":3,
             "soal":"Makna dari kalimat لا إله إلا الله adalah ...",
             "jawab":[
                 {
@@ -98,24 +98,24 @@
     ],
     "Soal4":[
         {
-            "id":1,
-            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "id":5,
+            "soal":"Siapa nama istri pertama Rasulullah ?",
             "jawab":[
                 {
-                    "value":"3",
-                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                    "value":"1",
+                    "jawab":"Khadijah -radhiyallahu ‘anha-"
                 },
                 {
                     "value":"0",
-                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                    "jawab":"Aisyah -radhiyallahu ‘anha-"
                 },
                 {
-                    "value":"1",
-                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                    "value":"3 ",
+                    "jawab":"Saudah -radhiyallahu ‘anha-"
                 },
                 {
                     "value":"2",
-                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                    "jawab":"Zainab bintu Khuzaimah -radhiyallahu ‘anha-"
                 }
             ]
         }
@@ -123,23 +123,23 @@
     "Soal5":[
         {
             "id":1,
-            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "soal":"Siapa sahabat Rasulullah yang pertama kali masuk Islam ?",
             "jawab":[
                 {
                     "value":"3",
-                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
-                },
-                {
-                    "value":"0",
-                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                    "jawab":"Zaid bin Haritsah"
                 },
                 {
                     "value":"1",
-                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                    "jawab":"Abu Bakar As-shidiq"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Ali bin abi thalib"
                 },
                 {
                     "value":"2",
-                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                    "jawab":"Bilal bin Rabah"
                 }
             ]
         }
@@ -147,23 +147,23 @@
     "Soal6":[
         {
             "id":1,
-            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "soal":"Dalam berwudhu membasuh kepala dan kedua telinga dilakukan sebanyak ?",
             "jawab":[
                 {
                     "value":"3",
-                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                    "jawab":"3x"
                 },
                 {
                     "value":"0",
-                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
-                },
-                {
-                    "value":"1",
-                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                    "jawab":"4x"
                 },
                 {
                     "value":"2",
-                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                    "jawab":"2x"
+                },
+                {
+                    "value":"1",
+                    "jawab":"1x"
                 }
             ]
         }
@@ -171,47 +171,47 @@
     "Soal7":[
         {
             "id":1,
-            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "soal":"Siapa saja yang termasuk sebagai Khulafaur Rasyidin ?",
             "jawab":[
                 {
                     "value":"3",
-                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                    "jawab":"Ali bin Abi Thalib, Abu Bakar Ash Shiddiq , Ustman bin Affan,  Bilal bin Rabah"
                 },
                 {
                     "value":"0",
-                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
-                },
-                {
-                    "value":"1",
-                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                    "jawab":"Ustman bin Affan, Anas bin malik, Abdullah bin Zubair, Umar bin Khattab"
                 },
                 {
                     "value":"2",
-                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                    "jawab":"Khalid bin Walid, Abu Thalhah al-Anshari, Ali bin Abi Thalib, Abdullah bin Zubair"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Abu Bakar Ash Shiddiq, Umar bin Khattab, Utsman bin Affan, Ali bin Abi thalib"
                 }
             ]
         }
     ],
-    "Soal8":[
+    "Soal8":[   
         {
             "id":1,
-            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "soal":"Ibnu Qoyyim al-Jauziyah wafat pada tahun ?",
             "jawab":[
                 {
-                    "value":"3",
-                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                    "value":"1",
+                    "jawab":"728 H"
                 },
                 {
                     "value":"0",
-                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                    "jawab":"712 H"
                 },
                 {
-                    "value":"1",
-                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                    "value":"3",
+                    "jawab":"720 H"
                 },
                 {
                     "value":"2",
-                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                    "jawab":"738 H"
                 }
             ]
         }
@@ -219,23 +219,23 @@
     "Soal9":[
         {
             "id":1,
-            "soal":"Apa yang diasasmaksud dengan Tauhid Rububiyah ?",
+            "soal":"Sekte sesat yang menolak keberadaan takdir adalah ...",
             "jawab":[
                 {
                     "value":"3",
-                    "jawab":"Mengesakasasan Allah dalam beribadah kepada-Nya"
+                    "jawab":"Murji'ah"
                 },
                 {
                     "value":"0",
-                    "jawab":"Mengesakan Aasasllah dalam sifat-Nya yang mulia"
+                    "jawab":"Syiah"
                 },
                 {
                     "value":"1",
-                    "jawab":"Mengesakan asasAllah dengan nama - nama Nya"
+                    "jawab":"Qadariyah"
                 },
                 {
                     "value":"2",
-                    "jawab":"Mengesakan Aasasllag dalam perbuatan-Nya"
+                    "jawab":"Mu'tazilah"
                 }
             ]
         }

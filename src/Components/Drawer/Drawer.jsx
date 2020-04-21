@@ -10,7 +10,8 @@ import ListItemText from '@material-ui/core/ListItemText'
 import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline'
 import PeopleIcon from '@material-ui/icons/People'
 import DehazeIcon from '@material-ui/icons/Dehaze'
-import {Link} from "react-router-dom"
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
+import { Link } from 'react-router-dom'
 
 const useStyles = makeStyles(theme => ({
   list: {
@@ -24,12 +25,15 @@ const useStyles = makeStyles(theme => ({
   },
   [theme.breakpoints.down('xs')]: {
     icon: {
-      display: 'block',
+      display: 'block'
     }
   }
 }))
 
-export default function DrawerNavbar ({drawerClickLogin, drawerClickRegister}) {
+export default function DrawerNavbar ({
+  drawerClickLogin,
+  drawerClickRegister
+}) {
   const classes = useStyles()
   const [state, setState] = React.useState({
     right: false
@@ -43,6 +47,10 @@ export default function DrawerNavbar ({drawerClickLogin, drawerClickRegister}) {
       return
     }
     setState({ ...state, [anchor]: open })
+  }
+  const logouts = () => {
+    localStorage.removeItem("uid")
+    window.location.reload()
   }
 
   const list = anchor => (
@@ -60,16 +68,39 @@ export default function DrawerNavbar ({drawerClickLogin, drawerClickRegister}) {
           src={require('../../Assets/logo.png')}
           alt=''
         />
-        {['Login', 'Register'].map((text, index) => (
-          <Link to={index === 0 ? "/login" : "/register"}>
-          <ListItem onClick={index === 0 ? drawerClickLogin :  drawerClickRegister}  button key={text}>
+        {localStorage.getItem('uid') ? (
+          <ListItem
+            onClick={logouts}
+            button
+          >
             <ListItemIcon>
-              {index === 1 ? <PeopleIcon  color="primary" /> : <PeopleOutlineIcon  color="primary" />}
+              <ExitToAppIcon color='primary' />
             </ListItemIcon>
-            <ListItemText primary={text} />
+            <ListItemText primary='Logout' />
           </ListItem>
-          </Link>
-        ))}
+        ) : (
+          <>
+            {' '}
+            {['Login', 'Register'].map((text, index) => (
+              <Link to={index === 0 ? '/login' : '/register'}>
+                <ListItem
+                  onClick={index === 0 ? drawerClickLogin : drawerClickRegister}
+                  button
+                  key={text}
+                >
+                  <ListItemIcon>
+                    {index === 1 ? (
+                      <PeopleIcon color='primary' />
+                    ) : (
+                      <PeopleOutlineIcon color='primary' />
+                    )}
+                  </ListItemIcon>
+                  <ListItemText primary={text} />
+                </ListItem>
+              </Link>
+            ))}{' '}
+          </>
+        )}
       </List>
       <Divider />
     </div>
@@ -80,7 +111,7 @@ export default function DrawerNavbar ({drawerClickLogin, drawerClickRegister}) {
       {['right'].map(anchor => (
         <React.Fragment key={anchor}>
           <DehazeIcon
-            color="primary"
+            color='primary'
             className={classes.icon}
             onClick={toggleDrawer(anchor, true)}
           />

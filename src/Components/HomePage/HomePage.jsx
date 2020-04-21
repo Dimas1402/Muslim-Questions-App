@@ -9,6 +9,7 @@ import './HomePage.css'
 import Animations from './animations'
 import Login from '../LoginRegister/Login/Login'
 import {Redirect} from "react-router-dom"
+import {Link} from "react-router-dom"
 // import Drawer from "../Drawer/Drawer"
 const useStyles = makeStyles(theme => ({
   root: {
@@ -139,6 +140,7 @@ if(localStorage.getItem("uid")){
                           yang kami berikan.{' '}
                         </p>
                       </div>
+                      <Link to="/login">
                       <Button
                         style={{ cursor: 'pointer', zIndex: '99' }}
                         className={classes.buttonStart}
@@ -147,6 +149,7 @@ if(localStorage.getItem("uid")){
                       >
                         Mulai Sekarang
                       </Button>
+                      </Link>
                     </div>
                   </Paper>
                 </Grid>
