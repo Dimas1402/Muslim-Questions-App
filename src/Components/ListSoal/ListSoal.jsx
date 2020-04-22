@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import TextField from '@material-ui/core/TextField'
 import { Redirect } from 'react-router-dom'
 import Navbar from '../Navbar/Navbar'
