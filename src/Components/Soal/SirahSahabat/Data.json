@@ -1,0 +1,244 @@
+{
+    "Soal0":
+    [
+        {
+            "id":0,
+            "soal":"Siapa Khulafaur Rasyidin yang memegang jabatan paling lama?",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Umar bin Khattab"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Ali bin Abi Thalib "
+                },
+                {
+                    "value":"1",
+                    "jawab":"Utsman bin Affan "
+                },
+                {
+                    "value":"3",
+                    "jawab":"Abu Bakar As - Shiddiq"
+                }
+            ]
+        }
+    ],
+    "Soal1":[
+        {
+            "id":1,
+            "soal":"Sahabat Nabi yang terkenal mengikuti Segala gerak - gerik nabi sekecil apapun adalah..",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Abu Hurairah "
+                },
+                {
+                    "value":"1",
+                    "jawab":"Abdullah ibn Umar"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Ali bin Abi Thalib"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Umar bin Khattab"
+                }
+            ]
+        }
+    ],
+    "Soal2":[
+        {
+            "id":2,
+            "soal":"Pengumpulan lembaran lembaran tulisan Qur'an dimulai pada zaman Khalifah?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Umar bin Khattab"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Utsman bin Affan"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Abu Bakar Ash-Shiddiq"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Umar bin Abdul Aziz"
+                }
+            ]
+        }
+    ],
+    "Soal3":[
+        {
+            "id":3,
+            "soal":"Siapa Sahabat Nabi yang ditugaskan sebagai Ketua Pengumpulan lembaran Qur'an ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Zaid ibn Haritsaha"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Zaid ibn Tsabit"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Abdullah ibn Abbas"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Ali ibn Abi Thalib"
+                }
+            ]
+        }
+    ],
+    "Soal4":[
+        {
+            "id":5,
+            "soal":"Siapa Khalifah yang paling pendek masa jabatan nya ?",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Utsman bin Affan"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Umar bin Khattab"
+                },
+                {
+                    "value":"3 ",
+                    "jawab":"Ali bin Abi Thalib"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Abu Bakar Ash-Shiddiq"
+                }
+            ]
+        }
+    ],
+    "Soal5":[
+        {
+            "id":1,
+            "soal":"Pemimpin sangat penting dalam kehidupan berbangsa dan bernegara.setelah Nabi Muhammad wafat kepemimpinan dijalankan oleh...",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Ali bin Abi Thalib"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Umar bin Khattab"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Abu Bakar As - Siddiq"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Utsman bin Affan"
+                }
+            ]
+        }
+    ],
+    "Soal6":[
+        {
+            "id":1,
+            "soal":"Ketika Nabi Muhammad berdakwah, orang laki - laki dewasa yang pertama kali masuk Islam adalah..",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Umar bin Khattab"
+                },
+                {
+                    "value":"0",
+                    "jawab":" Ali bin Abi Thalibh"
+                },
+                {
+                    "value":"2",
+                    "jawab":" Ustman bin Affan"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Abu Bakar As - Siddiq"
+                }
+            ]
+        }
+    ],
+    "Soal7":[
+        {
+            "id":1,
+            "soal":"Dalam Khulafaurrasidin Usman bin Affan adalah khalifah yang ke...",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"1"
+                },
+                {
+                    "value":"3",
+                    "jawab":"2"
+                },
+                {
+                    "value":"1",
+                    "jawab":"3"
+                },
+                {
+                    "value":"0",
+                    "jawab":"4"
+                }
+            ]
+        }
+    ],
+    "Soal8":[   
+        {
+            "id":1,
+            "soal":"Yang pertama kali mengangkat tentara angkatan laut pada zaman khalifah...",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Ustman bin Affan"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Umar bin Khattab"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Abu Bakar As - Siddiq"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Ali bin Abi Thalib"
+                }
+            ]
+        }
+    ],
+    "Soal9":[
+        {
+            "id":1,
+            "soal":"Dalam Khulafaurrasidin Ali bin Thalib adalah khalifah yang ke...",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"1"
+                },
+                {
+                    "value":"0",
+                    "jawab":"2"
+                },
+                {
+                    "value":"2",
+                    "jawab":"3"
+                },
+                {
+                    "value":"1",
+                    "jawab":"4"
+                }
+            ]
+        }
+    ]
+    
+}

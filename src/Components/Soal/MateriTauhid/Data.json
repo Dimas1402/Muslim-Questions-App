@@ -1,0 +1,244 @@
+{
+    "Soal0":
+    [
+        {
+            "id":0,
+            "soal":"Mentauhidkan Allah dalam segala bentuk peribadahan disebut dengan Tauhid ?",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Tauhid Rububiyah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Tauhid Asma'was Sifat"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Tauhid Uluhiyah"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Tauhid Musthaliq"
+                }
+            ]
+        }
+    ],
+    "Soal1":[
+        {
+            "id":1,
+            "soal":"Larangan terbesar Allah adalah ...",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Zina"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mabuk"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Membunuh"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Syirik"
+                }
+            ]
+        }
+    ],
+    "Soal2":[
+        {
+            "id":2,
+            "soal":"Mengesakan Allah dalam perbuatan - perbuatan Allah seperti menciptakan , memberi rizki , mengatur adalah pengertian dari Tauhid ...",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Tauhid Rububiyah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Tauhid Asma'was Sifat"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Tauhid Uluhiyah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Tauhid Musthaliq"
+                }
+            ]
+        }
+    ],
+    "Soal3":[
+        {
+            "id":3,
+            "soal":"Ada berapa pembagian Tauhid ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"2"
+                },
+                {
+                    "value":"0",
+                    "jawab":"4"
+                },
+                {
+                    "value":"2",
+                    "jawab":"1"
+                },
+                {
+                    "value":"1",
+                    "jawab":"3"
+                }
+            ]
+        }
+    ],
+    "Soal4":[
+        {
+            "id":5,
+            "soal":"Definisi dari syirik adalah ...",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Melakukan penyembahan kepada berhala"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Melakukan hal yang terkait dengan mistisme"
+                },
+                {
+                    "value":"3 ",
+                    "jawab":"Meminta bantuan kepada dukun dan paranormal"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Memalingkan satu jenis ibadah kepada selain Allah"
+                }
+            ]
+        }
+    ],
+    "Soal5":[
+        {
+            "id":1,
+            "soal":"Perbuatan apakah yang paling utama sesudah mengucap dua kalimat syahadat ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Besedekah"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Mendirikan sholat"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Puasa"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Zakat"
+                }
+            ]
+        }
+    ],
+    "Soal6":[
+        {
+            "id":1,
+            "soal":"Rukun kalimat laa ilaaha illallaah ada 2 yaitu ...",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"an-Nafyu dan al-Hajr "
+                },
+                {
+                    "value":"0",
+                    "jawab":"al-Itsbat dan an-Nafi"
+                },
+                {
+                    "value":"2",
+                    "jawab":"al-Hajr dan an-Nafi"
+                },
+                {
+                    "value":"1",
+                    "jawab":"an-Nafyu dan al-Itsbat"
+                }
+            ]
+        }
+    ],
+    "Soal7":[
+        {
+            "id":1,
+            "soal":"Apa itu an-Nafyu?",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"peniadaan"
+                },
+                {
+                    "value":"0",
+                    "jawab":"penetapan"
+                },
+                {
+                    "value":"2",
+                    "jawab":"pembenaran"
+                },
+                {
+                    "value":"3",
+                    "jawab":"penyeselesaian"
+                }
+            ]
+        }
+    ],
+    "Soal8":[   
+        {
+            "id":1,
+            "soal":"Apa itu al-Istbat ?",
+            "jawab":[
+                {
+                    "value":"0",
+                    "jawab":"peniadaan"
+                },
+                {
+                    "value":"1",
+                    "jawab":"penetapan"
+                },
+                {
+                    "value":"2",
+                    "jawab":"pembenaran"
+                },
+                {
+                    "value":"3",
+                    "jawab":"penyeselesaian"
+                }
+            ]
+        }
+    ],
+    "Soal9":[
+        {
+            "id":1,
+            "soal":"Apakah makna “al-urwatul wutsqa” (tali yang sangat kuat)?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Syahadat"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Ikatan"
+                },
+                {
+                    "value":"1",
+                    "jawab":"la ilaha illallah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"inallaha ma'sobirin"
+                }
+            ]
+        }
+    ]
+    
+}

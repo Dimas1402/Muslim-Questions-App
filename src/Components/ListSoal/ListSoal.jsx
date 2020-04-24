@@ -15,6 +15,7 @@ import Backdrop from '@material-ui/core/Backdrop'
 import Fade from '@material-ui/core/Fade'
 import Button from '@material-ui/core/Button'
 import {Link} from "react-router-dom"
+import Data from "./Data.json"
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -69,20 +70,29 @@ const ListSoal = () => {
   const [open, setOpen] = React.useState(false)
   const [name, setName] = useState('')
   const [next, setNext] = useState(false)
+  const [data, setData] = useState([])
 
+  React.useEffect(() => {
+    console.log("idd",data)
+  })
   const handleSetName = e => {
     e.preventDefault()
     localStorage.setItem('name', name)
     setNext(true)
   }
 
-  const handleOpen = () => {
+  const handleOpen = (text) => {
     setOpen(true)
+    const data = text
+    setData(data)
+ 
   }
 
   const handleClose = () => {
     setOpen(false)
   }
+
+
   // function ListItemLink (props) {
   //   return <ListItem button component='a' {...props} />
   // }
@@ -104,29 +114,21 @@ const ListSoal = () => {
                 component='nav'
                 aria-label='main mailbox folders'
               >
-                {[
-                  'Materi Umum',
-                  'Materi Tauhid',
-                  'Materi Aqidah',
-                  'Materi Akhlaq',
-                  'Materi Fiqih dan Muamalah',
-                  'Materi Sirah Nabawi',
-                  'Materi Sirah Sahabat'
-                ].map((text, index) => (
+                {Data.Materi.map(text => (
                   <ListItem
-                    onClick={index === 0 ? handleOpen : null}
-                    key={index}
+                    onClick={() => handleOpen(text)}
+                    key={text.id}
                     button
                   >
                     <ListItemIcon>
                       <ArrowForwardIosIcon />
                     </ListItemIcon>
                     <ListItemText
-                      className={index === 0 ? classes.listText : null}
-                      primary={text}
+                      className={classes.listText}
+                      primary={text.name}
                     />
                     <i style={{ fontSize: '10px' }}>
-                      {index === 0 ? 'Tersedia' : 'Belum Tersedia'}
+                      Tersedia
                     </i>
                   </ListItem>
                 ))}
@@ -176,7 +178,7 @@ const ListSoal = () => {
                         <p id='transition-modal-description'>
                          Apakah anda siap untuk memulai ujian ?
                         </p>
-                        <Link to="/materiumum">
+                        <Link to={data.path}>
                         <Button
                             style={{ marginTop: '10px' }}
                             variant='contained'
@@ -208,3 +210,11 @@ const ListSoal = () => {
   )
 }
 export default ListSoal
+// var n = 9;
+// var i = 1;
+
+// for (; i <= 20; i++, n++) {
+//     if (n % 2 == 1  ) {
+//         document.write(i + ' ')
+//     }
+// }

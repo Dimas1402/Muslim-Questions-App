@@ -1,0 +1,39 @@
+{
+    "Materi":[
+        {
+            "id":1,
+            "name":"Materi Umum",
+            "path":"/materiumum"
+        },
+        {
+            "id":2,
+            "name":"Materi Tauhid",
+            "path":"/materitauhid"
+        },
+        {
+            "id":3,
+            "name":"Materi Aqidah",
+            "path":"/materiaqidah"
+        },
+        {
+            "id":4,
+            "name":"Materi Akhlaq",
+            "path":"/materiakhlaq"
+        },
+        {
+            "id":5,
+            "name":"Materi Fiqih dan Muamalah",
+            "path":"/materifiqihdanmuamalah"
+        },
+        {
+            "id":6,
+            "name":"Materi Sirah Nabawi",
+            "path":"/materisirahnabawi"
+        },
+        {
+            "id":7,
+            "name":"Materi Sirah Sahabat",
+            "path":"/materisirahsahabat"
+        }
+    ]
+}
