@@ -1,0 +1,244 @@
+{
+    "Soal0":
+    [
+        {
+            "id":0,
+            "soal":"Bani Musthalik adalah salah satu suku yang berasal dari…",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Suku Quraisy"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Suku Khuza'ah"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Suku Khazraj"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Suku Aus"
+                }
+            ]
+        }
+    ],
+    "Soal1":[
+        {
+            "id":1,
+            "soal":"Golongan Yahudi Madinah yang telah mengkhianati perjanjiannya dalam perang Khandaq dan menampakkan permusushnnya kepada orang-orang muslim adalah…",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Bani Nadhir"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Bani Musthalik"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Bani Quraidhah"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Bani Quinuqa"
+                }
+            ]
+        }
+    ],
+    "Soal2":[
+        {
+            "id":2,
+            "soal":" Karena kasih sayangnya yang sangat besar terhadap sahabat ini, maka Rasulullah mengangkat sahabat tersebut sebagai anak angkatnya sehingga namanya diganti menjadi bin Muhammad, namun hal itu ditegur oleh Allah . sahabat tersebut adalah…",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Zaid Bin Haritsah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Zaid bin Awwam"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Zaid Bin Tsabit"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Zaid Bin Usamah"
+                }
+            ]
+        }
+    ],
+    "Soal3":[
+        {
+            "id":3,
+            "soal":"Mayoritas penduduk Arab Mekkah sebelum nabi Muhammad saw diutus adalah penyembah…",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Allah"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Berhala"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Api"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Matahari"
+                }
+            ]
+        }
+    ],
+    "Soal4":[
+        {
+            "id":5,
+            "soal":"Nabi Muhammad saw berdakwah dihadapan masyarakat Mekkah secara terang terangan di…",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Bukit Shafa"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Bukit Tursina"
+                },
+                {
+                    "value":"3 ",
+                    "jawab":"Bukit Sinai"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Bukit Uhud"
+                }
+            ]
+        }
+    ],
+    "Soal5":[
+        {
+            "id":1,
+            "soal":"Pada peristiwa hijrah Rasulullah yang pertama, ia memerintahkan para sahabatnya untuk hijrah menuju suatu negeri yang bernama...",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Habasyah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Persia"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Yasrib"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Quba"
+                }
+            ]
+        }
+    ],
+    "Soal6":[
+        {
+            "id":1,
+            "soal":"Kaum yang berada di Madinah atau asli penduduk Madinah saat menyambut kedatangan Rasulullah disebut….",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Kaum Muhajirin"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Kaum Khazraj"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Kaum Anshar"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Kaum Bani Nadhir"
+                }
+            ]
+        }
+    ],
+    "Soal7":[
+        {
+            "id":1,
+            "soal":"Sebelum Rasulullah dan Abu Bakar tiba di kota Yasrib, mereka sinngah dulu di Bani Amr bin Auf untuk…",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Beristirahat"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Membangun Mesjid Quba"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Bersilaturrahm"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Sholat"
+                }
+            ]
+        }
+    ],
+    "Soal8":[   
+        {
+            "id":1,
+            "soal":"Siapakah orang yang membawa Nabi Muhammad saw ke Mekkah saat ibunya meninggal di Abwa'?",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Ummu Aiman"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Abdul Muthalib"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Halimah Sa'diyah"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Ummu Salamah"
+                }
+            ]
+        }
+    ],
+    "Soal9":[
+        {
+            "id":1,
+            "soal":"Siapakah nama Ayah Nabi Muhammad?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":" Abdul Muthalib"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Abu Thalib"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Abdullah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Abu lahab"
+                }
+            ]
+        }
+    ]
+    
+}

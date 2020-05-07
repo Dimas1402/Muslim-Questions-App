@@ -1,0 +1,244 @@
+{
+    "Soal0":
+    [
+        {
+            "id":0,
+            "soal":"Apa makna Rabb ?",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Tuhan"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Pencipta alam semesta"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Pengatur"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Penguasa yang berhak disembah"
+                }
+            ]
+        }
+    ],
+    "Soal1":[
+        {
+            "id":1,
+            "soal":"Apa yang dimaksudkan Ihsan dalam ibadah ?",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Beribadah kepada Allah seakan akan melihat-Nya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Beribadah kepada Allah dengan khusyuk"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Beribadah kepada Allah dengan berharap Pahala"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Beribadah kepada Allah sesuai perintah yang telah diberikan"
+                }
+            ]
+        }
+    ],
+    "Soal2":[
+        {
+            "id":2,
+            "soal":"Dimana Allah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Allah ada dimana mana"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Allah ada di hati hambanya"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Allah di atas langit diatas Arsy"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Allah berada di bumi"
+                }
+            ]
+        }
+    ],
+    "Soal3":[
+        {
+            "id":3,
+            "soal":"Apa bahaya syirik besar ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Dapat terkena Azab Allah"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Syirik besar penyebab kekal di neraka"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Menda[atkan Dosa Besar"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Menghapus pahala"
+                }
+            ]
+        }
+    ],
+    "Soal4":[
+        {
+            "id":5,
+            "soal":"Apa hukum berdoa kepada selain Allah seperti para wali ?",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Mendapatkan Pahala yang besar"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Doa dapat terkabul"
+                },
+                {
+                    "value":"3 ",
+                    "jawab":"Dapat menghapus dosa dosa yang telah lalu"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Berdoa kepada mereka suatu kesyirikan memasukkan ke neraka"
+                }
+            ]
+        }
+    ],
+    "Soal5":[
+        {
+            "id":1,
+            "soal":"Apakah orang mati mendengar doa ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Orang mati dapat mendengar doa dari anak yang sholeh"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Orang-orang mati tidak mendengar doa"
+                },
+                {
+                    "value":"0",
+                    "jawab":"ya, orang mati dapat mendengar doa jika Allah berkehendak."
+                },
+                {
+                    "value":"2",
+                    "jawab":"Semua jawaban benar"
+                }
+            ]
+        }
+    ],
+    "Soal6":[
+        {
+            "id":1,
+            "soal":"Siapa wali itu ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Para keturunan Rasulullah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Kyai"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Para habib"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Orang beriman yang bertaqwa"
+                }
+            ]
+        }
+    ],
+    "Soal7":[
+        {
+            "id":1,
+            "soal":"Apa bid’ah dalam agama itu ?",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Suatu ibadah baru, namun jika ibadah itu baik bukan termasuk bid'ah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Ibadah yang tercela seperti menyekutukan Allah"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Semua ibadah yang tidak ada dalil syar’i atasnya"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Ibadah yang di bolehkan jika ibadah tersebut dengan niat yang baik"
+                }
+            ]
+        }
+    ],
+    "Soal8":[   
+        {
+            "id":1,
+            "soal":"Apa yang kita lakukan jika kita berselisih ?",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Kembali kepada Al-Quran dan sunnah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Kembali kepada hawa nafsu kita"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Berdebat untuk mendapat jawabannya"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Semua jawaban salah"
+                }
+            ]
+        }
+    ],
+    "Soal9":[
+        {
+            "id":1,
+            "soal":"Apa itu Raghbah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Rasa takut yang ditimbulkan karena adanya ancaman "
+                },
+                {
+                    "value":"0",
+                    "jawab":"Bersungguh sungguh dalam ibadah"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Beribadah kepada Allah dengan penuh harapan"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Berserah diri kepada Allah"
+                }
+            ]
+        }
+    ]
+    
+}

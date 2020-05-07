@@ -1,0 +1,244 @@
+{
+    "Soal0":
+    [
+        {
+            "id":0,
+            "soal":"Fiqih menurut bahasa berarti...",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Pemahaman"
+                },
+                {
+                    "value":"0",
+                    "jawab":"sungguh-sungguh"
+                },
+                {
+                    "value":"3",
+                    "jawab":"serius"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Faham yang mendalam"
+                }
+            ]
+        }
+    ],
+    "Soal1":[
+        {
+            "id":1,
+            "soal":"Suatu disiplin ilmu yang membahas hukum-hukum syar’i yang berkaitan dengan perbuatan mukallaf, seperti halal, haram, sunnah, makruh, dan ja’iz, juga berkaitan dengan batal atau sah merupakan pengertian fikih menurut …",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Bahasa"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Istilah usul fiqih"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Imam Syafi'i"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Imam Abu Hanifah"
+                }
+            ]
+        }
+    ],
+    "Soal2":[
+        {
+            "id":2,
+            "soal":"Objek pembahasan fikih meliputi…",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Ibadah, muamalah, jinayah, dan khilafiah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Ibadah, jinayah, muamalah, dan syar’iyah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"ibadah, muamalah, syar’iyah, dan hudud"
+                },
+                {
+                    "value":"1",
+                    "jawab":"ibadah, muamalah, jinayah, dan hudud"
+                }
+            ]
+        }
+    ],
+    "Soal3":[
+        {
+            "id":3,
+            "soal":" Jenazah orang yang sudah berkeluarga, maka yang lebih berhak memandikannya adalah…",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"keluarga atau kerabatnya"
+                },
+                {
+                    "value":"1",
+                    "jawab":"suami atau istrinya"
+                },
+                {
+                    "value":"2",
+                    "jawab":"orang tuanya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"orang yang paling dekat hubungannya"
+                }
+            ]
+        }
+    ],
+    "Soal4":[
+        {
+            "id":5,
+            "soal":"Hukum mengurus jenazah bagi orang muslim adalah...",
+            "jawab":[
+                {
+                    "value":"2",
+                    "jawab":"Fardu ‘ain"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Wajib"
+                },
+                {
+                    "value":"3 ",
+                    "jawab":"Sunah muakkad"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Fardu kifayah"
+                }
+            ]
+        }
+    ],
+    "Soal5":[
+        {
+            "id":1,
+            "soal":"Posisi imam yang menyalatkan jenazah perempuan adalah..",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"searah pusar jenazah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"searah kaki jenazah"
+                },
+                {
+                    "value":"3",
+                    "jawab":"berada searah kepala jenazah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"searah pinggang jenazah"
+                }
+            ]
+        }
+    ],
+    "Soal6":[
+        {
+            "id":1,
+            "soal":"Kapan kita mengucapkan kalimat tarji?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"ketika melihat musibah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"ketika mendengar musibah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"ketika mengalami musibah"
+                },
+                {
+                    "value":"1",
+                    "jawab":"semua jawaban benar"
+                }
+            ]
+        }
+    ],
+    "Soal7":[
+        {
+            "id":1,
+            "soal":" Bunga uang atau nilai lebih atas penukaran barang. Hal ini sering terjadi dalam pertukaran bahan makanan, perak, emas, dan pinjam-meminjam di sebut ...",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Khiyar"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Riba"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Muzaraah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mukhabarah"
+                }
+            ]
+        }
+    ],
+    "Soal8":[   
+        {
+            "id":1,
+            "soal":"Kesepakatan tukar- menukar benda untuk memiliki benda tersebut selamanya. Melakukan jual-beli dibenarkan ...",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Jual Beli"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Sewa Menyewa"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Muzaraah"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Muamalah"
+                }
+            ]
+        }
+    ],
+    "Soal9":[
+        {
+            "id":1,
+            "soal":"Hukum yang mengatur hubungan antar sesama manusia disebut ...",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":" Muhasabah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mukhabarah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Musawamah"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Muamalah"
+                }
+            ]
+        }
+    ]
+    
+}

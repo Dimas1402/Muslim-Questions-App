@@ -1,0 +1,244 @@
+{
+    "Soal0":
+    [
+        {
+            "id":0,
+            "soal":"Perang yang disebabkan oleh dendam lama orang - orang yahudi yang di usir oleh Rasulullah dari Madinah adalah perang ...",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Perang Khandaq"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Perang Badr "
+                },
+                {
+                    "value":"2",
+                    "jawab":"Perang Uhud"
+                },
+                {
+                    "value":"3",
+                    "jawab":"Perang Bani Musthaliq "
+                }
+            ]
+        }
+    ],
+    "Soal1":[
+        {
+            "id":1,
+            "soal":"Apa yang dimaksud dengan Tauhid Rububiyah ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Mengesakan Allah dalam beribadah kepada-Nya"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Mengesakan Allah dalam sifat-Nya yang mulia"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Mengesakan Allah dengan nama - nama Nya"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Mengesakan Allah dalam perbuatan-Nya"
+                }
+            ]
+        }
+    ],
+    "Soal2":[
+        {
+            "id":2,
+            "soal":"Hamzah bin Abdul Muthalib bin Hasyim mati syahid ketika perang ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Perang Badr"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Perang Uhud"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Perang Khandaq"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Perang Bani Musthaliq"
+                }
+            ]
+        }
+    ],
+    "Soal3":[
+        {
+            "id":3,
+            "soal":"Makna dari kalimat لا إله إلا الله adalah ...",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Tiada Tuhan selain Allah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Tidak ada penguasa abadi selain Allah."
+                },
+                {
+                    "value":"1",
+                    "jawab":"Tiada Tuhan yang berhak disembah selain Allah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Tidak ada yang berkuasa selain Allah"
+                }
+            ]
+        }
+    ],
+    "Soal4":[
+        {
+            "id":5,
+            "soal":"Siapa nama istri pertama Rasulullah ?",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"Khadijah -radhiyallahu ‘anha-"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Aisyah -radhiyallahu ‘anha-"
+                },
+                {
+                    "value":"3 ",
+                    "jawab":"Saudah -radhiyallahu ‘anha-"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Zainab bintu Khuzaimah -radhiyallahu ‘anha-"
+                }
+            ]
+        }
+    ],
+    "Soal5":[
+        {
+            "id":1,
+            "soal":"Siapa sahabat Rasulullah yang pertama kali masuk Islam ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Zaid bin Haritsah"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Abu Bakar As-shidiq"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Ali bin abi thalib"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Bilal bin Rabah"
+                }
+            ]
+        }
+    ],
+    "Soal6":[
+        {
+            "id":1,
+            "soal":"Dalam berwudhu membasuh kepala dan kedua telinga dilakukan sebanyak ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"3x"
+                },
+                {
+                    "value":"0",
+                    "jawab":"4x"
+                },
+                {
+                    "value":"2",
+                    "jawab":"2x"
+                },
+                {
+                    "value":"1",
+                    "jawab":"1x"
+                }
+            ]
+        }
+    ],
+    "Soal7":[
+        {
+            "id":1,
+            "soal":"Siapa saja yang termasuk sebagai Khulafaur Rasyidin ?",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Ali bin Abi Thalib, Abu Bakar Ash Shiddiq , Ustman bin Affan,  Bilal bin Rabah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Ustman bin Affan, Anas bin malik, Abdullah bin Zubair, Umar bin Khattab"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Khalid bin Walid, Abu Thalhah al-Anshari, Ali bin Abi Thalib, Abdullah bin Zubair"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Abu Bakar Ash Shiddiq, Umar bin Khattab, Utsman bin Affan, Ali bin Abi thalib"
+                }
+            ]
+        }
+    ],
+    "Soal8":[   
+        {
+            "id":1,
+            "soal":"Ibnu Qoyyim al-Jauziyah wafat pada tahun ?",
+            "jawab":[
+                {
+                    "value":"1",
+                    "jawab":"728 H"
+                },
+                {
+                    "value":"0",
+                    "jawab":"712 H"
+                },
+                {
+                    "value":"3",
+                    "jawab":"720 H"
+                },
+                {
+                    "value":"2",
+                    "jawab":"738 H"
+                }
+            ]
+        }
+    ],
+    "Soal9":[
+        {
+            "id":1,
+            "soal":"Sekte sesat yang menolak keberadaan takdir adalah ...",
+            "jawab":[
+                {
+                    "value":"3",
+                    "jawab":"Murji'ah"
+                },
+                {
+                    "value":"0",
+                    "jawab":"Syiah"
+                },
+                {
+                    "value":"1",
+                    "jawab":"Qadariyah"
+                },
+                {
+                    "value":"2",
+                    "jawab":"Mu'tazilah"
+                }
+            ]
+        }
+    ]
+    
+}
